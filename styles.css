@@ -1,7 +1,7 @@
 body{
     font-family: Arial;
     background-color: rgba(121, 202, 158, 0.918);
-    padding: 0.1px;
+    padding: 0.1%;
 }
 
 h1,h2{
@@ -15,7 +15,7 @@ h1,h2{
 }
 
 hr{
-    padding: 2px;
+    padding: 0.5%;
     background-color: aqua;
 }
 
