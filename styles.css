@@ -11,10 +11,16 @@ h1,h2{
 
 .txtcolor-overide{
     color: whitesmoke;
-    /* This is just an overide for a basic color */
+    /* This is just an override for a basic color */
 }
 
 hr{
     padding: 2px;
     background-color: aqua;
+}
+
+.hr2{
+    padding: 2px;
+    background-color: rgb(54, 190, 99);
+    /* This is another override */
 }
