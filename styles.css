@@ -1,7 +1,20 @@
 body{
     font-family: Arial;
+    background-image: url(https://i.pinimg.com/originals/cf/8a/5b/cf8a5bee30b432bc0954bf8d348e7d06.jpg);
+    padding: 0.1px;
 }
 
 h1,h2{
     text-align: center;
+    color: rgb(213, 243, 236);
+}
+
+.txtcolor-overide{
+    color: whitesmoke;
+    /* This is just an overide for a basic color */
+}
+
+hr{
+    padding: 2px;
+    background-color: aqua;
 }
