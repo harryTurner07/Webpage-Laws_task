@@ -82,10 +82,25 @@
         <section>
             <h1>Quiz!</h1>
             <p>Click on the ones that you believe to be true or false</p>
+            <!--
+                Yes this is a very simple quiz and
+                Yes the answers can be shown via F12
+            -->
             <ul>
-                <li onclick="showWrong();">The law was put into place on 29th September 1991</li>
-                <li onclick="showRight();">Under the law, it's ilegal to log onto someone's account without them knowing</li>
-                <li  onclick="showRight();">Test for right answer 2 :/</li>
+                <li id="wrong", onclick="showWrong();">The law was put into place on 29th September 1991</li>
+                <p id="defwrong"></p>
+
+                <li id="right", onclick="showRight();">Under the law, it's ilegal to log onto someone's account without them knowing</li>
+                <p id="defright"></p>
+                
+                <li id="right2", onclick="showRight2();">A way to keep yourself safe is by making sure you log out of your computer</li>
+                <p id="defright2"></p>
+
+                <li id="wrong2", onclick="showWrong2()"">The computer misuse act has had no revisions since 2018</li>
+                <p id="defwrong2"></p>
+
+                <li id="right3", onclick="showRight3()">ABAABABABAB</li>
+                <p id="defright3"></p>
             </ul>
         </section>
     </body>
