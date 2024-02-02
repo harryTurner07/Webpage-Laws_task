@@ -1,9 +1,13 @@
 // I couldn't think of anything else, the function runs once for one of the calls,
 // e.g. if the second right one is clicked, the changes only apply to the first one
 
+function loaded(){
+    console.log("page has loaded")
+}
+
 function showRight(){
     document.getElementById("right").style.color = "green";
-    //document.getElementById("defright").innerHTML = "Yep";
+    document.getElementById("defright").innerHTML = "Yep";
     alert("Yippee");
 }
 

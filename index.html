@@ -4,7 +4,7 @@
         <script src="quiz.js"></script>
         <title>Information about the Computer Misuse Act</title>
     </head>
-    <body>
+    <body onload="loaded();">
         <hr>The Computer Misuse Act
         <section>
             <!--
@@ -86,21 +86,21 @@
                 Yes this is a very simple quiz and
                 Yes the answers can be shown via F12
             -->
-            <ul>
-                <li id="wrong", onclick="showWrong();">The law was put into place on 29th September 1991</li>
-                <p id="defwrong"></p>
+            <ul class="quiz">
+                <li id="wrong", onclick="showWrong();">The law was put into place on 29th September 1991.</li>
+                <p class="answers", id="defwrong"></p>
 
-                <li id="right", onclick="showRight();">Under the law, it's ilegal to log onto someone's account without them knowing</li>
-                <p id="defright"></p>
+                <li id="right", onclick="showRight();">Under the law, it's ilegal to log onto someone's account without them knowing.</li>
+                <p class="answers", id="defright"></p>
                 
-                <li id="right2", onclick="showRight2();">A way to keep yourself safe is by making sure you log out of your computer</li>
-                <p id="defright2"></p>
+                <li id="right2", onclick="showRight2();">A way to keep yourself safe is by making sure you log out of your computer.</li>
+                <p class="answers", id="defright2"></p>
 
-                <li id="wrong2", onclick="showWrong2()"">The computer misuse act has had no revisions since 2018</li>
-                <p id="defwrong2"></p>
+                <li id="wrong2", onclick="showWrong2()"">The computer misuse act has had no revisions since 2018.</li>
+                <p class="answers", id="defwrong2"></p>
 
-                <li id="right3", onclick="showRight3()">ABAABABABAB</li>
-                <p id="defright3"></p>
+                <li id="right3", onclick="showRight3()">The act was created in order to deal with the issue of modifying or accessing the data.</li>
+                <p class="answers", id="defright3"></p>
             </ul>
         </section>
     </body>

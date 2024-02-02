@@ -24,3 +24,11 @@ hr{
     background-color: rgb(54, 190, 99);
     /* This is another override */
 }
+
+.quiz{
+    text-align: left;
+}
+
+.answer{
+    text-align: right;
+}
